@@ -112,16 +112,16 @@ function App() {
 
       <main>
         <section id="beranda" className="relative mx-auto max-w-7xl px-4 pb-12 pt-24 sm:px-5 sm:pb-16 sm:pt-28 lg:px-10 lg:pb-20 lg:pt-36">
-          <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-14">
-            <div className="max-w-xl">
+          <div className="flex flex-col items-center text-center">
+            <div className="max-w-2xl">
               <h1 className="font-serif text-[2.4rem] leading-[1.02] tracking-[-.04em] text-[#5c1f3a] sm:text-5xl lg:text-[4rem]">Hadiah balon untuk setiap momenmu</h1>
-              <p className="mt-5 max-w-md text-[14px] leading-7 text-[#9c4e6e] sm:mt-6 sm:text-[15px]">Balloon bucket cantik untuk ulang tahun, perayaan, kejutan, dan setiap momen kecil yang patut diingat.</p>
-              <div className="mt-7 flex flex-wrap items-center gap-3">
+              <p className="mt-5 max-w-lg mx-auto text-[14px] leading-7 text-[#9c4e6e] sm:mt-6 sm:text-[15px]">Balloon bucket cantik untuk ulang tahun, perayaan, kejutan, dan setiap momen kecil yang patut diingat.</p>
+              <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
                 <button onClick={() => gulirKe('belanja')} className="btn-primary">Lihat balloon bucket <ArrowRight size={16} /></button>
                 <button onClick={() => gulirKe('custom')} className="btn-quiet">Buat sendiri</button>
               </div>
             </div>
-            <div className="mx-auto w-full max-w-[380px] sm:max-w-[520px] lg:max-w-[560px]">
+            <div className="mt-8 w-full max-w-[760px] sm:mt-10">
               <div className="hero-image"><img src={HERO_IMAGE} alt="Rangkaian hadiah balon Balonlyz" /></div>
             </div>
           </div>
