@@ -118,7 +118,7 @@ function App() {
               <p className="mt-5 max-w-lg mx-auto text-[14px] leading-7 text-[#9c4e6e] sm:mt-6 sm:text-[15px]">Balloon bucket cantik untuk ulang tahun, perayaan, kejutan, dan setiap momen kecil yang patut diingat.</p>
               <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
                 <button onClick={() => gulirKe('belanja')} className="btn-primary">Lihat balloon bucket <ArrowRight size={16} /></button>
-                <button onClick={() => gulirKe('custom')} className="btn-quiet">Buat sendiri</button>
+                <button onClick={() => gulirKe('custom')} className="btn-quiet">Custom</button>
               </div>
             </div>
             <div className="mt-8 w-full max-w-[760px] sm:mt-10">
