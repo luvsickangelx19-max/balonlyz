@@ -15,6 +15,7 @@ import {
 const WHATSAPP_NUMBER = '6285864107298';
 const INSTAGRAM_URL = 'https://instagram.com/balonlyz';
 const LOGO = '/Balloonlyz-modified.png';
+const HERO_IMAGE = '/2.png';
 
 const photos = [
   'https://images.pexels.com/photos/28786205/pexels-photo-28786205.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -121,7 +122,7 @@ function App() {
               </div>
             </div>
             <div className="mx-auto w-full max-w-[380px] sm:max-w-[520px] lg:max-w-[560px]">
-              <div className="hero-image"><img src={photos[0]} alt="Rangkaian hadiah balon pastel" /></div>
+              <div className="hero-image"><img src={HERO_IMAGE} alt="Rangkaian hadiah balon Balonlyz" /></div>
             </div>
           </div>
         </section>
