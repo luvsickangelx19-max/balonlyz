@@ -4,12 +4,12 @@ import {
   Check,
   CircleUserRound,
   Menu,
+  MessageCircle,
   Minus,
   Plus,
   ShoppingBag,
   Trash2,
   X,
-  Zap,
 } from 'lucide-react';
 
 const WHATSAPP_NUMBER = '6285864107298';
@@ -129,7 +129,7 @@ function App() {
 
         <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-5 sm:pb-20 lg:px-10">
           <div className="online-note">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#fff0f6] text-[#ec3e7e]"><Zap size={17} fill="currentColor" /></div>
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#fff0f6] text-[#ec3e7e]"><MessageCircle size={17} fill="currentColor" /></div>
             <div>
               <p className="text-[11px] font-bold tracking-[.15em] text-[#d62a6c]">PESANAN ONLINE SAJA</p>
               <p className="mt-1 text-[13px] text-[#9c4e6e]">Pilih hadiah balonmu di sini, pesan langsung lewat WhatsApp.</p>
